@@ -1,5 +1,5 @@
 {
-  "name": "PDF Creator",
+  "name": "pdf-creator",
   "version": "0.0.1",
   "description": "A PDF Creator using AlloyEditor",
   "scripts": {
