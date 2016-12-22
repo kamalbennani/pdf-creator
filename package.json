@@ -1,14 +1,14 @@
 {
-  "name": "react-hot-boilerplate",
-  "version": "1.0.0",
-  "description": "Boilerplate for ReactJS project with hot code reloading",
+  "name": "PDF Creator",
+  "version": "0.0.1",
+  "description": "A PDF Creator using AlloyEditor",
   "scripts": {
     "start": "node server.js",
     "lint": "eslint src"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/gaearon/react-hot-boilerplate.git"
+    "url": "https://github.com/kamalbennani/pdf-editor.git"
   },
   "keywords": [
     "react",
@@ -21,12 +21,12 @@
     "edit",
     "webpack"
   ],
-  "author": "Dan Abramov <dan.abramov@me.com> (http://github.com/gaearon)",
+  "author": "Dan Abramov <dan.abramov@me.com> (http://github.com/kamalbennani)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/gaearon/react-hot-boilerplate/issues"
+    "url": "https://github.com/kamalbennani/pdf-editor/issues"
   },
-  "homepage": "https://github.com/gaearon/react-hot-boilerplate",
+  "homepage": "https://github.com/kamalbennani/pdf-editor",
   "devDependencies": {
     "babel-core": "^6.0.20",
     "babel-eslint": "^4.1.3",
