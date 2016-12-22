@@ -1,6 +1,8 @@
 var path = require('path');
 var webpack = require('webpack');
 
+var srcPath = path.resolve(__dirname, './src');
+
 module.exports = {
   devtool: 'cheap-module-eval-source-map',
   entry: [
@@ -19,7 +21,9 @@ module.exports = {
     loaders: [{
       test: /\.js$/,
       loaders: ['react-hot', 'babel'],
-      include: path.join(__dirname, 'src')
+      include: [
+        srcPath,
+      ]
     }]
   }
 };
